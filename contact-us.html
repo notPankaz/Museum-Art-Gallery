@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum & Art Gallery</title>
+    <link rel = "icon" href = "favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6fbc8c9e08.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="main-img">
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="explore.html">Explore</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="banner-title">
+            <h1>Museum & Art Gallery</h1>
+            <p>Virtual Tours</p>
+        </div>
+    </div>
+    <div class="contact-form">
+        <h3>Contact Form</h3>
+        <hr>
+        <form action="">
+            <table border="0">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" id="name" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">Message:</td>
+                    <td>
+                        <textarea name="msg" id="msg" cols="25" rows="7" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit" value="Submit">
+                        <input type="reset" name="reset" value="Clear">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div class="footer" style="background-color: #000;">
+        <div class="logo"><img src="images/logo.png" alt=""></div>
+        <div class="copyright" style="color: #fff;">Copyright &copy; Museum & Art Gallery 2021</div>
+        <div class="cont-btn">
+            <a href="contact-us.html"><button>Contact Us</button></a>
+        </div>
+    </div>
+</body>
+
+</html>
